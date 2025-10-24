@@ -75,7 +75,7 @@ export default function ScorePage({ navigate }) {
         <p className="muted">Roll Number</p>
         <p className="big">{roll || '—'}</p>
         
-        <p className="muted">Marks Obtained</p>
+        <p className="muted">Points Obtained</p>
         {loading ? (
           <p className="score">Loading...</p>
         ) : error ? (
